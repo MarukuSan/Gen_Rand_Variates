@@ -177,7 +177,7 @@ double genrand_res53(void)
 
 //--- Question 2 
 double uniform(double a, double b) {
-    return (genrand_real2()*(b-a))+a; //--- Génère un nombre pseudo-aléatoire entre a et b
+    return (genrand_real1()*(b-a))+a; //--- Génère un nombre pseudo-aléatoire entre a et b
 }
 
 //--- Question 3a
